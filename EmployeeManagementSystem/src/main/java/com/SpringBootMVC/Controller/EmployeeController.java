@@ -21,6 +21,7 @@ import com.SpringBootMVC.Exception.ResourceNotFoundException;
 import com.SpringBootMVC.Model.Employee;
 import com.SpringBootMVC.Repository.EmployeeRopository;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping(value = "/api/v1/")
 @RestController
 public class EmployeeController {
